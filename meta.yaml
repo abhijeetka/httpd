@@ -4,8 +4,8 @@ name: che-theia
 version: next
 type: Che Editor
 displayName: theia-ide
-title: Calibo Development Environment.
-description: 'Calibo development version'
+title: Eclipse Theia development version.
+description: 'Eclipse Theia, get the latest release each day.'
 icon: /v3/images/eclipse-che-logo.png
 category: Editor
 repository: 'https://github.com/eclipse-che/che-theia'
