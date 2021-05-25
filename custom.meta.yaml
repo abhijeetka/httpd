@@ -77,7 +77,7 @@ spec:
         secure: true
       public: true
   containers:
-    - image: 'index.docker.io/abijeetka/che-thia:7.27.2'
+    - image: 'index.docker.io/abhijeetka/che-theia:7.27.2'
       env:
         - name: THEIA_PLUGINS
           value: 'local-dir:///plugins'
