@@ -56,9 +56,11 @@ spec:
            value: 0.0.0.0
          - name: HOSTED_PLUGIN_PORT
            value: 3130
-     volumes:
-         - mountPath: "/plugins"
-           name: plugins
+      volumes:
+        - name: plugins
+          mountPath: /plugins
+        - name: theia-local
+          mountPath: /home/theia/.theia
      mountSources: true
      ports:
          - exposedPort: 3100
