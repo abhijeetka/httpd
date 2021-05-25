@@ -4,13 +4,13 @@ name: che-theia
 version: next
 type: Che Editor
 displayName: theia-ide
-title: Eclipse Theia development version.
+title: Calibo Development Environment.
 description: 'Eclipse Theia, get the latest release each day.'
 icon: /v3/images/eclipse-che-logo.png
 category: Editor
 repository: 'https://github.com/eclipse-che/che-theia'
 firstPublicationDate: '2019-03-07'
-latestUpdateDate: '2021-05-21'
+latestUpdateDate: '2021-05-25'
 spec:
   endpoints:
     - name: theia
@@ -82,7 +82,7 @@ spec:
         - name: THEIA_PLUGINS
           value: 'local-dir:///plugins'
         - name: HOSTED_PLUGIN_HOSTNAME
-          value: 0.0.0.0
+          value: 0.0.0.0eclipse/che-theia/next
         - name: HOSTED_PLUGIN_PORT
           value: '3130'
         - name: THEIA_HOST
